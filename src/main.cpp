@@ -133,9 +133,7 @@ void setup() {
 void draw() {
     p5.background(0);
 
-    // for (int i = 0; i < 2; i++) {
-        parallel_compute_and_apply_diff();
-    // }
+    parallel_compute_and_apply_diff();
 
     for (int i = 0; i < h; i++) {
         for (int j = 0; j < w; j++) {
